@@ -1,0 +1,17 @@
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: #f3cba2;
+  }
+
+  .black {
+    height: 100px;
+    width: 100px;
+    background-color: #252423;
+  }
+.container{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}

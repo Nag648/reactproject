@@ -1,3 +1,22 @@
-.App {
-  text-align: center;
+
+.name{
+  padding-left: 20px;
+  background-color: blueviolet;
+  height: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.name1{
+  height: 40px;
+  width: 300px;
+  background-color: aquamarine;
+  color: rgb(89, 0, 255);
+  border-top: 5px solid green;
+  border-bottom: 5px solid red;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline: none;
 }
