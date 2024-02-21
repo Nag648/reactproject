@@ -6,18 +6,20 @@ import reportWebVitals from './reportWebVitals';
 // import Data from './Data';
 // import Update from './Update';
 // import Form from './Form';
-import Usetstates from './Usetstates'
+// import Usetstates from './Usetstates'
 // import Onchange from './Onchange';
+import Mylogin from './Mylogin';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     {/* <App /> 
+     {/* <App />
     <Chessboard /> */}
     {/* <Data /> */}
     {/* <Update /> */}
     {/* <Form /> */}
-    <Usetstates />
+    {/* <Usetstates /> */}
     {/* <Onchange /> */}
+    <Mylogin />
   </React.StrictMode>
 );
 

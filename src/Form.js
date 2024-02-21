@@ -19,12 +19,22 @@ const Form = (props) => {
     }else if (event.target.name=="lname"){
       setLname(event.target.value)
     }
-   
-    // setLname(event.target.value)
-    // setEmail(event.target.value)
-    // setAge(event.target.value)
-    // setPhno(event.target.value)
-    // setGender(event.target.value)
+  else if (event.target.name=="email"){
+    setLname(event.target.value)
+  }
+else if (event.target.name=="age"){
+  setLname(event.target.value)
+}
+else if (event.target.name=="phno"){
+  setLname(event.target.value)
+}
+else if (event.target.name=="gender"){
+  setLname(event.target.value)
+}
+
+
+
+
   };
  
 
@@ -36,7 +46,7 @@ const Form = (props) => {
     // Access the form data and perform actions using props
     // props.onSubmit();
   };
-  // console.log("formData",formData)
+
   console.log("stateData","fname",fname,"lname",lname)
   return (
     <div className="form-container">

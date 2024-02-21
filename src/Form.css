@@ -1,10 +1,12 @@
-/* Form.css */
+
 .form-container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 300px;
-    margin: 0 auto;
+    width: 250px;
+    margin: 0 200px;
     padding: 20px;
+    height: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
